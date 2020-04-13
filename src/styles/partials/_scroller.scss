@@ -1,0 +1,32 @@
+.da-messagesWrapper {
+  .da-scroller {
+    &::before {
+      content: "";
+      color: blue;
+    }
+
+    &::-webkit-scrollbar {
+      visibility: hidden;
+      background-clip: padding-box;
+      background-color: transparent;
+    }
+  
+    &::-webkit-scrollbar-corner {
+  
+    }
+  
+    &::-webkit-scrollbar-thumb {
+  
+    }
+  
+    &::-webkit-scrollbar-track {
+      visibility: hidden;
+      background-clip: padding-box;
+      background-color: #{$middle-green-color} !important;
+    }
+  
+    &::-webkit-scrollbar-track-piece {
+  
+    }
+  }
+}

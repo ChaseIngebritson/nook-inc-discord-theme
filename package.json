@@ -1,0 +1,57 @@
+{
+  "name": "nook-inc-discord-theme",
+  "version": "0.2.0",
+  "description": "An Animal Crossing: New Horizons discord theme.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development --watch",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaseIngebritson/nook-inc-discord-theme.git"
+  },
+  "keywords": [
+    "Nook",
+    "Inc",
+    "Animal",
+    "Crossing",
+    "Better",
+    "Discord",
+    "Theme"
+  ],
+  "author": "Chase Ingebritson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChaseIngebritson/nook-inc-discord-theme/issues"
+  },
+  "homepage": "https://github.com/ChaseIngebritson/nook-inc-discord-theme#readme",
+  "eslint": {
+    "parser": "babel-eslint",
+    "extends": "standard"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "plugins": [
+      "stylelint-scss"
+    ],
+    "ignoreFiles": "dist",
+    "defaultSeverity": "warning"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "css-loader": "^3.2.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-loader": "^3.0.2",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "stylelint": "^11.1.1",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-scss": "^3.12.1",
+    "stylelint-webpack-plugin": "^1.0.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-fix-style-only-entries": "^0.4.0"
+  }
+}

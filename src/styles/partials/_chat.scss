@@ -1,0 +1,20 @@
+.da-chat {
+  .da-chatContent {
+    background-image: url("#{$grass-image}");
+
+    .da-scroller {
+      background-color: transparent;
+    }
+
+    .da-form {
+      &::before {
+        display: none;
+      }
+
+      .da-channelTextArea {
+        // margin-bottom: 10px;
+        // margin-top: 20px;
+      }
+    }
+  }
+}
