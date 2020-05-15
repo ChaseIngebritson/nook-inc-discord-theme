@@ -1,6 +1,6 @@
 {
   "name": "nook-inc-discord-theme",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "An Animal Crossing: New Horizons discord theme.",
   "main": "index.js",
   "scripts": {
