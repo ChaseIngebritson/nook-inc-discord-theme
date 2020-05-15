@@ -1,32 +1,12 @@
-.da-messagesWrapper {
+.da-scrollerWrap {
   .da-scroller {
-    &::before {
-      content: "";
-      color: blue;
+    &::-webkit-scrollbar-thumb {
+      background-color: #{$dark-green-color} !important;
     }
 
-    &::-webkit-scrollbar {
-      visibility: hidden;
-      background-clip: padding-box;
-      background-color: transparent;
-    }
-  
-    &::-webkit-scrollbar-corner {
-  
-    }
-  
-    &::-webkit-scrollbar-thumb {
-  
-    }
-  
-    &::-webkit-scrollbar-track {
-      visibility: hidden;
-      background-clip: padding-box;
-      background-color: #{$middle-green-color} !important;
-    }
-  
     &::-webkit-scrollbar-track-piece {
-  
+      border: none !important;
+      background: none !important;
     }
   }
 }
