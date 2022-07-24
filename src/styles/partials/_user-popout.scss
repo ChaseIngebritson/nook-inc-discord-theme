@@ -1,29 +1,35 @@
-.da-userPopout {
-  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba($middle-green-color, 0.6);
+.userPopout-3XzG_A {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba($dark-green-color, 0.6);
 
-  .da-headerTop {
+  .header-2BwW8b {
     background-color: var(--background-tertiary);
   }
 
-  .da-bodyInner {
+  > .body-3iLsc4 {
     background-color: var(--background-secondary);
 
-    .da-bodyTitle,
-    .da-role {
-      color: #{$dark-green-color};
+    .bodyTitle-Y0qMQz,
+    .role-2irmRk {
+      color: #{$white-color};
     }
 
-    .da-actionButton {
-      border-color: #{$dark-green-color};
+    .actionButton-VzECiy {
+      border-color: #{$white-color};
     }
   }
 
-  .da-footer {
-    background-color: var(--background-primary);
+  .footer-1fjuF6 {
+    background-color: var(--background-secondary);
 
-    .da-quickMessage {
-      background-color: var(--background-secondary);
+    .inputDefault-_djjkz {
+      background-color: var(--background-primary);
       border-color: #{$middle-green-color};
+    }
+  }
+
+  .headerPlaying-j0WQBV {
+    .activityUserPopout-2yItg2 {
+      background-color: var(--interactive-active);
     }
   }
 }

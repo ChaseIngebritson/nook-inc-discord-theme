@@ -1,20 +1,39 @@
-.da-chat {
-  .da-chatContent {
+.chat-2ZfjoI {
+  .chatContent-3KubbW {
     background-image: url("#{$grass-image}");
+  }
 
-    .da-scroller {
-      background-color: transparent;
+  .title-31SJ6t {
+    background-color: var(--background-tertiary);
+  }
+  
+  .search-39IXmY {
+    .searchFilter-2UfsDk,
+    .searchAnswer-23w-CH {
+      background-color: transparent !important;
+    }
+  }
+
+  .repliedMessage-3Z6XBG {
+    &::before {
+      border-color: var(--text-muted);
     }
 
-    .da-form {
-      &::before {
-        display: none;
-      }
-
-      .da-channelTextArea {
-        // margin-bottom: 10px;
-        // margin-top: 20px;
-      }
+    .repliedTextPreview-1bvxun .markup-eYLPri {
+      color: var(--text-muted);
     }
+  }
+
+  .autocomplete-1vrmpx {
+    background-color: var(--background-tertiary);
+
+    .autocompleteRow-2OthDa .selected-1Tbx07 {
+      background-color: var(--background-primary);
+    }
+  }
+
+  .newMessagesBar-265mhP {
+    background-color: var(--interactive-active);
+    color: var(--interactive-normal);
   }
 }

@@ -1,3 +1,5 @@
 .container-1D34oG {
-  background-image: url("#{$grass-image}");
+  .theme-dark & {
+    background: none;
+  }
 }

@@ -1,0 +1,78 @@
+.theme-dark {
+  .container-2McqkF {
+    background-color: var(--background-primary);
+  }
+
+  .queryContainer-ZunrLZ {
+    background-color: var(--background-secondary);
+
+    .dim-2Uxgxb span {
+      background-color: var(--background-accent);
+      color: var(--text-normal);
+    }
+  }
+
+  .option-ayUoaq {
+    &::after {
+      background: none;
+    }
+
+    &.da-selected {
+      background-color: var(--background-tertiary);
+
+      &::after {
+        background: none;
+      }
+    }
+
+    .answer-14OVbQ,
+    .displayUsername-UTerwm {
+      color: var(--text-muted) !important;
+    }
+
+    .filter-2QaH9y,
+    .searchResultChannelCategory-19ujDo,
+    .searchResultChannelIcon-C-3P9x {
+      color: var(--text-normal);
+    }
+  }
+
+  .da-datePicker {
+    .da-calendarPicker {
+      .react-datepicker {
+        background-color: var(--background-primary);
+
+        &__header {
+          background-color: var(--background-primary);
+        }
+
+        &__day {
+          &:hover {
+            background-color: var(--interactive-hover);
+          }
+
+          &--outside-month,
+          &--disabled {
+            background-color: var(--background-tertiary) !important;
+          }
+
+          &--selected {
+            &::after {
+              background-color: var(--interactive-hover);
+            }
+          }
+        }
+      }
+    }
+
+    .da-datePickerHint {
+      .da-hintValue {
+        background-color: var(--interactive-normal);
+
+        &:hover {
+          background-color: var(--interactive-hover);
+        }
+      }
+    }
+  }
+}
